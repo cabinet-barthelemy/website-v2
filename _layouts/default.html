@@ -13,13 +13,13 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="{{ site.title }} - {{ page.title }}">
-    <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
-    <meta property="og:image" content="{{ site.url }}/assets/images/logo-big.png" />
+    <meta property="og:url" content="{{ page.url | prepend: site.baseurl }}" />
+    <meta property="og:image" content="{{ "/assets/images/logo-big.png" | prepend: site.baseurl }}" />
     <meta property="og:locale" content="{{ page.lang }}">
 
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
-    <link rel="icon" href="/assets/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ "/assets/images/icons/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
     <link rel="canonical" href="{{ site.url }}" />
   </head>
 

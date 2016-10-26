@@ -7,6 +7,6 @@
 {% for case in site.data.cases %}
   <h2>{{ case.name[page.lang] }}</h2>
   <p>{{ case.description[page.lang] }}</p>
-  <img src="/assets/images/cases/{{ case.images.before }}" alt="{{ case.name[page.lang] }}">
-  <img src="/assets/images/cases/{{ case.images.after }}" alt="{{ case.name[page.lang] }}">
+  <img src="{{ site.baseurl }}/assets/images/cases/{{ case.images.before }}" alt="{{ case.name[page.lang] }}">
+  <img src="{{ site.baseurl }}/assets/images/cases/{{ case.images.after }}" alt="{{ case.name[page.lang] }}">
 {% endfor %}
