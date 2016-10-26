@@ -5,9 +5,9 @@
 </div>
 
 {% for employee in site.data.employees %}
-  <div class="mosaic mosaic--responsive mrgt+ box box--tight">
-    <div class="mosaic__cell mosaic__cell--fit">
-      <img src="{{ site.baseurl }}/assets/images/team/{{ employee.key }}.jpg" alt="{{ employee.name }}">
+  <div class="mosaic mosaic--responsive mosaic--fixed mrgt+ box box--tight">
+    <div class="mosaic__cell">
+      <img src="{{ site.baseurl }}/assets/images/team/{{ employee.key }}.jpg" alt="{{ employee.name }}" class="img-responsive">
     </div>
     <div class="mosaic__cell box">
       <h2>{{ employee.name }}</h2>
