@@ -9,20 +9,6 @@
   }
 }
 
-@media screen and (max-width: $screen-xs-max) {
-  .nav {
-    max-height: 0;
-    overflow: hidden;
-
-    -webkit-transition: max-height 0.8s;
-    -moz-transition: max-height 0.8s;
-    transition: max-height 0.8s;
-  }
-  .nav__visible {
-    max-height: 500px;
-  }
-}
-
 .main-nav {
   a {
     color: $alt-color;
@@ -39,6 +25,18 @@
 }
 
 @media (max-width: $screen-sm-max) {
+  .nav {
+    max-height: 0;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.8s;
+    -moz-transition: max-height 0.8s;
+    transition: max-height 0.8s;
+  }
+  .nav__visible {
+    max-height: 500px;
+  }
+
   .main-nav {
     margin-bottom: $spacing-unit-default;
 

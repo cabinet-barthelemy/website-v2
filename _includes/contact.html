@@ -1,7 +1,7 @@
 {% assign t = site.data.translations[page.lang] %}
 
 <div class="grid container-inner">
-  <div class="md-w-1/2 grid__item">
+  <div class="sm-w-1/2 grid__item">
     <h1>{{ t.pages.contact.title }}</h1>
 
     {% include address.html %}
@@ -11,7 +11,7 @@
       F. {{ site.settings.fax }}
     </div>
   </div>
-  <div class="md-w-1/2 grid__item">
+  <div class="sm-w-1/2 grid__item">
     <h2 class="mrgt--">{{ t.vocab.opening_hours }}</h2>
     <table class="table">
       <tr>
@@ -46,6 +46,6 @@
   <div class="map" data-lat="{{ site.settings.gps.lat }}" data-lng="{{ site.settings.gps.lng }}"></div>
 </div>
 
-<div class="mrgv hidden-sm-up">
+<div class="mrgv hidden-md-up">
   <a href="https://www.google.ch/maps/place/Rue+Juste+Olivier+8,+1260+Nyon/@46.3838521,6.2366358,17z/data=!3m1!4b1!4m2!3m1!1s0x478c42d818c5f593:0x1d2c0e5634de099?hl=en" class="btn btn--md btn--block btn--primary">{{ t.vocab.view_gmap }}</a>
 </div>

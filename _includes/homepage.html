@@ -1,6 +1,6 @@
 {% assign t = site.data.translations[page.lang] %}
 
-<div class="container-inner hidden-sm-up">
+<div class="container-inner hidden-md-up">
   <div class="grid grid--tight mrgb">
     <div class="w-1/2 grid__item">
       <a href="tel:{{ site.settings.phone | replace: ' ', '' }}" class="btn btn--block btn--primary">{{ t.vocab.call_now }}</a>
@@ -13,4 +13,4 @@
   </div>
 </div>
 
-<img src="{{ site.baseurl }}/assets/images/nyon-chateau.jpg" alt="Chateau de Nyon" class="img-block" />
+<img src="{{ site.baseurl }}/assets/images/nyon-chateau.jpg" alt="Chateau de Nyon" class="img-responsive">
