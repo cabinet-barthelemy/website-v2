@@ -1,0 +1,15 @@
+.icon {
+  display: block;
+
+  width: 29px;
+  height: 29px;
+
+  background-repeat: no-repeat;
+}
+
+.icon-burger {
+  background-image: url($baseUrl + '/assets/images/icons/burger.svg');
+}
+.icon-close {
+  background-image: url($baseUrl + '/assets/images/icons/close.svg');
+}

@@ -16,7 +16,7 @@ $baseUrl: "{{ site.baseurl }}";
 @import "layout/layout";
 
 @import "sections/header";
+@import "sections/icons";
 @import "sections/map";
 @import "sections/nav";
-@import "sections/section";
 @import "sections/thumbnail";
