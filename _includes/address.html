@@ -1,0 +1,6 @@
+<address itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+  {{ site.settings.address | newline_to_br }}
+  <span itemprop="email">
+    <a href="mailto:{{ site.settings.email }}">{{ site.settings.email }}</a>
+  </span>
+</address>

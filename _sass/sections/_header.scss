@@ -1,0 +1,6 @@
+@media screen and (max-width: $screen-xs-max) {
+  .header {
+    padding-bottom: $spacing-unit-small;
+    border-bottom: 2px solid $alt-color-lighter;
+  }
+}

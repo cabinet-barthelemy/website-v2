@@ -1,0 +1,58 @@
+fr:
+  vocab:
+    headline: Dentiste à Nyon
+    keywords: Dentiste, Nyon
+    opening_hours: Heures d'ouverture
+    daynames: ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi']
+    entrance: Entrée du cabinet
+    reception: Réception
+    waiting_room: Salle d'attente
+    treatment_room: Salle de traitement
+    sterilization_room: Salle de stérilisation
+    view_gmap: Voir dans Google map
+    call_now: Appeler
+    find_us: Nous trouver
+  pages:
+    home:
+      image_title: Chateau de Nyon
+    team:
+      title: Equipe soignante
+    treatments:
+      title: Nos Traitements
+    photos:
+      title: En images
+    cases:
+      title: Cas clinique
+    costs:
+      title: Les tarifs de soins
+    contact:
+      title: Nous trouver
+en:
+  vocab:
+    headline: Dentiste in Nyon
+    keywords: Dentiste, Nyon
+    opening_hours: Opening hours
+    daynames: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    entrance: Main entrance
+    reception: Reception
+    waiting_room: Waiting room
+    treatment_room: Treatment room
+    sterilization_room: Sterilization room
+    view_gmap: View in Google Map
+    call_now: Call now
+    find_us: Find us
+  pages:
+    home:
+      image_title: Nyon Castle
+    team:
+      title: Healthcare team
+    treatments:
+      title: Our treatments
+    photos:
+      title: Photos
+    cases:
+      title: Cas clinique
+    costs:
+      title: Treatment costs
+    contact:
+      title: Find us

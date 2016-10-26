@@ -1,0 +1,20 @@
+{% assign t = site.data.translations[page.lang] %}
+
+<nav class="nav mrgb" id="nav">
+  <ul class="main-nav list mrgb--">
+    {% for key in site.settings.navigation %}
+      {% assign pages = site.pages | where: "lang", page.lang | where: "key", key %}
+      {% assign p = pages[0] %}
+
+      {% if page.key == p.key %}
+        {% assign active = "active" %}
+      {% else %}
+        {% assign active = "" %}
+      {% endif %}
+
+      <li class="{{ active }}">
+        <a href="{{ p.url }}" class="pdg--">{{ p.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

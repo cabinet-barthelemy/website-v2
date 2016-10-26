@@ -1,0 +1,18 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: $screen-md-min) {
+    .container {
+        padding-left: $spacing-unit-small;
+        padding-right: $spacing-unit-small;
+    }
+}
+
+@media screen and (max-width: $screen-md-min) {
+    .container-inner {
+        padding-left: $spacing-unit-small;
+        padding-right: $spacing-unit-small;
+    }
+}

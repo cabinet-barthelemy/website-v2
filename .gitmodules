@@ -1,0 +1,3 @@
+[submodule "vendor/kanbasu"]
+	path = vendor/kanbasu
+	url = https://github.com/liip/kanbasu.git

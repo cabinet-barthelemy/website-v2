@@ -1,0 +1,16 @@
+{% assign t = site.data.translations[page.lang] %}
+
+<div class="container-inner hidden-sm-up">
+  <div class="grid grid--tight mrgb">
+    <div class="w-1/2 grid__item">
+      <a href="tel:{{ site.settings.phone | replace: ' ', '' }}" class="btn btn--block btn--primary">{{ t.vocab.call_now }}</a>
+    </div>
+    <div class="w-1/2 grid__item">
+      {% assign pages = site.pages | where: "lang", page.lang | where: "key", "contact" %}
+      {% assign contact_page = pages.first %}
+      <a href="{{ contact_page.url }}" class="btn btn--block btn--default">{{ t.vocab.find_us }}</a>
+    </div>
+  </div>
+</div>
+
+<img src="{{ site.url }}/assets/images/nyon-chateau.jpg" alt="Chateau de Nyon" class="img-block" />

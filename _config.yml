@@ -1,0 +1,44 @@
+# Site settings
+title: Cabinet Dentaire Barthélémy
+# if you want to preview the website under name.github.io/mysite, you have to
+# change baseurl to /mysite
+baseurl: ""
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+exclude: [vendor, node_modules, Gemfile, Gemfile.lock, package.json, README.md]
+
+# Site settings
+settings:
+  navigation:
+    - home
+    - team
+    - treatments
+    - pictures
+    - costs
+    - contact
+  languages:
+    - fr
+    - en
+  copyright: Cabinet Dentaire Barthélémy SA
+  address: |
+    Rue Juste-Olivier 8
+    1260 Nyon, Suisse
+  gps:
+    lat: 46.3837699
+    lng: 6.2359417
+  email: mail@dentistebarthelemy.ch
+  phone: +41 22 363 11 00
+  fax: +41 22 363 11 02
+  opening:
+    monday: 8h - 18h
+    tuesday: 8h - 18h
+    wednesday: 8h - 18h
+    thursday: 8h - 18h
+    friday: 8h - 17h
+    saturday: 8h - 13h
+  social:
+    facebook: https://www.facebook.com/cdbarthelemy
+    pinterest: http://www.pinterest.com/cdbarthelemy
+    googleplus: https://plus.google.com/105682578784316957350/about

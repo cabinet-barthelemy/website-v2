@@ -1,0 +1,51 @@
+{% assign t = site.data.translations[page.lang] %}
+
+<div class="grid container-inner">
+  <div class="md-w-1/2 grid__item">
+    <h1>{{ t.pages.contact.title }}</h1>
+
+    {% include address.html %}
+
+    <div>
+      T. <a href="tel:{{ site.settings.phone | replace: ' ', '' }}">{{ site.settings.phone }}</a><br>
+      F. {{ site.settings.fax }}
+    </div>
+  </div>
+  <div class="md-w-1/2 grid__item">
+    <h2 class="mrgt--">{{ t.vocab.opening_hours }}</h2>
+    <table class="table">
+      <tr>
+        <th>{{ t.vocab.daynames[0] }}</th>
+        <td>{{ site.settings.opening.monday }}</td>
+      </tr>
+      <tr>
+        <th>{{ t.vocab.daynames[1] }}</th>
+        <td>{{ site.settings.opening.tuesday }}</td>
+      </tr>
+      <tr>
+        <th>{{ t.vocab.daynames[2] }}</th>
+        <td>{{ site.settings.opening.wednesday }}</td>
+      </tr>
+      <tr>
+        <th>{{ t.vocab.daynames[3] }}</th>
+        <td>{{ site.settings.opening.thursday }}</td>
+      </tr>
+      <tr>
+        <th>{{ t.vocab.daynames[4] }}</th>
+        <td>{{ site.settings.opening.friday }}</td>
+      </tr>
+      <tr>
+        <th>{{ t.vocab.daynames[5] }}</th>
+        <td>{{ site.settings.opening.saturday }}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="map-container">
+  <div class="map" data-lat="{{ site.settings.gps.lat }}" data-lng="{{ site.settings.gps.lng }}"></div>
+</div>
+
+<div class="mrgv hidden-sm-up">
+  <a href="https://www.google.ch/maps/place/Rue+Juste+Olivier+8,+1260+Nyon/@46.3838521,6.2366358,17z/data=!3m1!4b1!4m2!3m1!1s0x478c42d818c5f593:0x1d2c0e5634de099?hl=en" class="btn btn--md btn--block btn--primary">{{ t.vocab.view_gmap }}</a>
+</div>

@@ -1,0 +1,45 @@
+<footer class="section section--top pdg- mrgt">
+  <div class="grid">
+    <div class="w-1/3 grid__item">
+      <p class="text-small mrgv--">
+        <span class="hidden-sm-down">{{ site.settings.copyright }} </span>© {{ site.time | date: '%Y' }}</p>
+    </div>
+    <div class="w-1/3 grid__item">
+      <ul class="list-inline list-inline--tight text-center">
+        <li>
+          <a href="{{ site.settings.social.facebook }}">
+            <img src="{{ site.url }}/assets/images/icons/facebook.svg" alt="facebook" class="img-social" />
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.settings.social.pinterest }}">
+            <img src="{{ site.url }}/assets/images/icons/pinterest.svg" alt="pinterest" class="img-social" />
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.settings.social.googleplus }}">
+            <img src="{{ site.url }}/assets/images/icons/googleplus.svg" alt="google+" class="img-social" />
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="w-1/3 grid__item">
+      <ul class="list-inline text-right">
+        {% for lang in site.settings.languages %}
+          {% assign pages = site.pages | where: "lang", lang | where: "key", page.key %}
+          {% assign p = pages[0] %}
+
+          {% if lang == page.lang %}
+            {% assign class = 'text-bold' %}
+          {% else %}
+            {% assign class = '' %}
+          {% endif %}
+
+          <li class="{{ class }}">
+            <a href="{{ p.url }}">{{ lang | upcase }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</footer>

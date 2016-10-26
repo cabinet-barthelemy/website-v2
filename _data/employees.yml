@@ -1,0 +1,78 @@
+- name: Dr Jonathan Barthelemy
+  key: dr_barthelemy
+  description:
+    fr: |
+      Dr, Médecin-Dentiste
+      Omnipraticien, diplômé en 2006 à l'Université de Liège (BE)
+      Assistant à l'Université de Genève en endodontie de 2006 à 2009
+      Doctorat à l'Université de Genève en 2009
+      Pratique privée dans une clinique à Morges de 2009 à 2013
+      Dentiste à la clinique de la jeunesse de Genève
+      Soins sous anesthésie générale pour le HUG hôpital des enfants
+    en: |
+      General dentist
+      Graduated at the faculty of Dentistry, Liege (BE) 2006
+      Assistantship in endodontic at Geneva University from 2006 to 2009
+      Received a doctorate from the Geneva University in 2009
+      Private practice for a clinic in Morges from 2009 to 2013
+      Pediatric dentist for Yout Dental clinic of Geneva
+      Care under anesthesia general for children hospital of HUG
+- name: Shirly Bendrihem
+  key: shirly
+  description:
+    fr: |
+      Médecin-dentiste
+      Omnipraticienne diplômée en 2016 à l'université de Genève
+    en: |
+      General dentist
+      Graduated at the faculty of Dentistry, Geneva 2016
+- name: Dr Piero Parisini
+  key: piero
+  description:
+    fr: |
+      Dr, Médecin-dentiste
+      Dentisterie esthétique, diplômé en 2007 à l'Université de Parme (IT)
+      Master en biologie orale Université de Genève
+      Chercheur à l'Université de Southern California (USA)
+      Postgrade de Médecine Dentaire Reconstructrice UNIGE
+    en: |
+      Aesthetic dentist
+      Graduated at the faculty of Dentistry, Parma (IT) 2007
+      Master in advanced Studies in Oral Biology
+      Visiting Ressearcher in University of South California
+      Postgrade Course in Recoustructive Dentistry UNIGE
+- name: Catherine Labbé
+  key: catherine
+  description:
+    fr: Hygiéniste dentaire
+    en: Dental Hygienist
+- name: Jennifer Le
+  key: jennifer
+  description:
+    fr: Hygiéniste dentaire
+    en: Dental Hygienist
+- name: Carla Celerin
+  key: carla
+  description:
+    fr: Assistante dentaire
+    en: Dental assistant
+- name: Shqipe Kabashi
+  key: shqipe
+  description:
+    fr: Assistante dentaire
+    en: Dental assistant
+- name: Anna Rufenacht
+  key: anna
+  description:
+    fr: Assistante dentaire
+    en: Dental assistant
+- name: Manon Fleury
+  key: manon
+  description:
+    fr: Apprentie assistante dentaire
+    en: Dental assistant apprentice
+- name: Selamawit Bekele
+  key: selam
+  description:
+    fr: Apprentie assistante dentaire
+    en: Dental assistant apprentice

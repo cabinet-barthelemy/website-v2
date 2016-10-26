@@ -1,0 +1,17 @@
+{% assign t = site.data.translations[page.lang] %}
+
+<div class="container-inner">
+    <h1>{{ t.pages.team.title }}</h1>
+</div>
+
+{% for employee in site.data.employees %}
+  <div class="mosaic mosaic--responsive mrgt+ box box--tight">
+    <div class="mosaic__cell mosaic__cell--fit">
+      <img src="/assets/images/team/{{ employee.key }}.jpg" alt="{{ employee.name }}">
+    </div>
+    <div class="mosaic__cell box">
+      <h2>{{ employee.name }}</h2>
+      <p>{{ employee.description[page.lang] | newline_to_br  }}</p>
+    </div>
+  </div>
+{% endfor %}

@@ -1,0 +1,42 @@
+{% assign t = site.data.translations[page.lang] %}
+
+<h1>{{ t.pages.photos.title }}</h1>
+
+<div class="grid">
+  <div class="md-w-1/2 grid__item mrgb">
+    <div class="thumbnail">
+      <img src="{{ site.url }}/assets/images/entree-cabinet.jpg" alt="{{ t.vocab.entrance }}" class="img-block">
+      <div class="thumbnail-body pdg-">{{ t.vocab.entrance }}</div>
+    </div>
+  </div>
+  <div class="md-w-1/2 grid__item mrgb">
+    <div class="thumbnail">
+      <img src="{{ site.url }}/assets/images/entree-cabinet2.jpg" alt="{{ t.vocab.entrance }}" class="img-block">
+      <div class="thumbnail-body pdg-">{{ t.vocab.entrance }}</div>
+    </div>
+  </div>
+  <div class="md-w-1/2 grid__item mrgb">
+    <div class="thumbnail">
+      <img src="{{ site.url }}/assets/images/reception.jpg" alt="{{ t.vocab.reception }}" class="img-block">
+      <div class="thumbnail-body pdg-">{{ t.vocab.reception }}</div>
+    </div>
+  </div>
+  <div class="md-w-1/2 grid__item mrgb">
+    <div class="thumbnail">
+      <img src="{{ site.url }}/assets/images/reception2.jpg" alt="{{ t.vocab.waiting_room }}" class="img-block">
+      <div class="thumbnail-body pdg-">{{ t.vocab.waiting_room }}</div>
+    </div>
+  </div>
+  <div class="md-w-1/2 grid__item mrgb">
+    <div class="thumbnail">
+      <img src="{{ site.url }}/assets/images/salle-de-sterilisation.jpg" alt="{{ t.vocab.sterilization_room }}" class="img-block">
+      <div class="thumbnail-body pdg-">{{ t.vocab.sterilization_room }}</div>
+    </div>
+  </div>
+  <div class="md-w-1/2 grid__item mrgb">
+    <div class="thumbnail">
+      <img src="{{ site.url }}/assets/images/salle-de-traitements.jpg" alt="{{ t.vocab.treatment_room }}" class="img-block">
+      <div class="thumbnail-body pdg-">{{ t.vocab.treatment_room }}</div>
+    </div>
+  </div>
+</div>
