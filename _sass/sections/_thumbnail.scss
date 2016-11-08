@@ -1,8 +1,22 @@
 .thumbnail {
   position: relative;
+  display: inline-block;
 }
 
-.thumbnail-body {
+.thumbnail__item {
+  position: absolute;
+
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.thumbnail__item--transparent {
+  opacity: 0;
+}
+
+.thumbnail__body {
   position: absolute;
   width: 100%;
   bottom: 0;

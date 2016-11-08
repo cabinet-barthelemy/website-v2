@@ -36,8 +36,20 @@
     });
   }
 
+  function initCrossFade() {
+    var items = document.querySelectorAll('.thumbnail--crossfading');
+
+    for (i = 0, len = items.length; i < len; i++) {
+      items[i].addEventListener('click', function(e) {
+        var image = this.querySelectorAll('.thumbnail__item')[1];
+        image.classList.toggle('thumbnail__item--transparent');
+      });
+    }
+  }
+
   function init() {
     initMenu();
+    initCrossFade();
     google.maps.event.addDomListener(window, 'load', initMaps);
   }
 

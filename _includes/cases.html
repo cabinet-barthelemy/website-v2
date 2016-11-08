@@ -1,12 +1,18 @@
 {% assign t = site.data.translations[page.lang] %}
 
 <div class="container-inner">
-  <h1>{{ t.pages.cases.title }}</h1>
+    <h1>{{ t.pages.cases.title }}</h1>
 </div>
 
 {% for case in site.data.cases %}
-  <h2>{{ case.name[page.lang] }}</h2>
-  <p>{{ case.description[page.lang] }}</p>
-  <img src="{{ site.baseurl }}/assets/images/cases/{{ case.images.before }}" alt="{{ case.name[page.lang] }}">
-  <img src="{{ site.baseurl }}/assets/images/cases/{{ case.images.after }}" alt="{{ case.name[page.lang] }}">
+    <div class="container-inner">
+        <h2>{{ case.name[page.lang] }}</h2>
+    </div>
+
+    <div class="thumbnail thumbnail--crossfading">
+        <img class="thumbnail__item img-block" src="{{ site.baseurl }}/assets/images/cases/{{ case.images.before }}" alt="{{ case.name[page.lang] }}">
+        <img class="thumbnail__item img-block" src="{{ site.baseurl }}/assets/images/cases/{{ case.images.after }}" alt="{{ case.name[page.lang] }}">
+        <img class="invisible img-block" src="{{ site.baseurl }}/assets/images/cases/{{ case.images.before }}" alt="{{ case.name[page.lang] }}">
+        <div class="thumbnail__body pdg-">{{ case.description[page.lang] }}</div>
+    </div>
 {% endfor %}
