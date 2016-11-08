@@ -16,6 +16,21 @@
   opacity: 0;
 }
 
+.thumbnail__label {
+  position: absolute;
+  top: 0;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.thumbnail__label--before {
+  left: 0;
+}
+
+.thumbnail__label--after {
+  right: 0;
+}
+
 .thumbnail__body {
   position: absolute;
   width: 100%;
