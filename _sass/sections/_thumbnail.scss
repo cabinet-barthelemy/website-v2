@@ -32,8 +32,14 @@
 }
 
 .thumbnail__body {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: $alt-color-lighter;
+}
+
+@media (min-width: $screen-md-min) {
+  .thumbnail__body {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
 }
