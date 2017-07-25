@@ -26,21 +26,6 @@
     en: |
       General dentist
       Graduated at the faculty of Dentistry, Geneva 2016
-- name: Dr Piero Parisini
-  key: piero
-  description:
-    fr: |
-      Dr, Médecin-dentiste
-      Dentisterie esthétique, diplômé en 2007 à l'Université de Parme (IT)
-      Master en biologie orale Université de Genève
-      Chercheur à l'Université de Southern California (USA)
-      Postgrade de Médecine Dentaire Reconstructrice UNIGE
-    en: |
-      Aesthetic dentist
-      Graduated at the faculty of Dentistry, Parma (IT) 2007
-      Master in advanced Studies in Oral Biology
-      Visiting Ressearcher in University of South California
-      Postgrade Course in Recoustructive Dentistry UNIGE
 - name: Catherine Labbé
   key: catherine
   description:
