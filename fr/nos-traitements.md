@@ -12,7 +12,6 @@ Toutes les spécialités de la médecine dentaire sont représentées dans notre
  * Dentisterie générale et conservatrice
  * Dentisterie adhésive et esthétique
  * Facettes céramique et composite
- * Facettes préfabriquées et pré-adaptées en composite
  * Traitements de racine
  * Détartrage
  * Blanchiment dentaire au fauteuil
@@ -22,8 +21,7 @@ Toutes les spécialités de la médecine dentaire sont représentées dans notre
  * Soins dentaire pédiatrique
  * Prothèse dentaire amovible et fixe
  * Soins au laser
- * Traitement des abrasions et érosions dentaires
- * Traitement de cas complexes
+ * Orthèse Narval contre le ronflement
  * Traitement de problèmes ATM et neuromusculaires
 
 Les prestations offertes par notre cabinet dentaire s’articulent autour d’un concept de qualité visant à travailler principalement avec les meilleures matériaux et laboratoires suisses.
