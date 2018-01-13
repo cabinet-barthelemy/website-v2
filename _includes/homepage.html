@@ -14,3 +14,11 @@
 </div>
 
 <img src="{{ site.baseurl }}/assets/images/nyon-chateau.jpg" alt="Chateau de Nyon" class="img-responsive">
+
+<div class="container-inner">
+  {% if page.lang == 'fr' %}
+    {% include homepage_fr.html %}
+  {% else %}
+    {% include homepage_en.html %}
+  {% endif %}
+</div>
