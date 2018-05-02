@@ -7,7 +7,7 @@ key: costs
 
 # Les tarifs de soins
 
- * La valeur du point appliquée est de 1.1 pour les soins dentaires et 1.00 pour l'hygièniste selon la nouvelle tarification de la SSO
+ * La valeur du point appliquée est de 1.2 pour les soins dentaires et 1.00 pour l'hygièniste selon la nouvelle tarification de la SSO
  * La valeur du point pour la Lamal, accident, CSR, PC/AVS est de 3.10
  * [Nous suivons la tarification SSO](https://www.sso.ch/fr/patients/droit-et-tarif/tarif-dentaire.html)
 
