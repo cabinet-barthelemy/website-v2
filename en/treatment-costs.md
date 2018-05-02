@@ -7,7 +7,7 @@ key: costs
 
 # Treatment costs
 
- * The point value applied is 1.1 for general treatments and 1.00 for hygienist according to the new SSO tarification
+ * The point value applied is 1.2 for general treatments and 1.00 for hygienist according to the new SSO tarification
  * The point value for LAMal, accidents, CSR and PC/AVS is 3.10
  * [We apply the rates set by the SSO](https://www.sso.ch/fr/patients/droit-et-tarif/tarif-dentaire.html)
 
