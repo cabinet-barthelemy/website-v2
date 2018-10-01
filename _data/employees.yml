@@ -46,8 +46,18 @@
   description:
     fr: Assistante dentaire
     en: Dental assistant
+- name: Yvonne Ricci
+  key: yvonne
+  description:
+    fr: Assistante dentaire
+    en: Dental assistant
 - name: Manon Fleury
   key: manon
   description:
     fr: Assistante dentaire
     en: Dental assistant
+- name: Pauline Fleury
+  key: pauline
+  description:
+    fr: Apprentie
+    en: Apprentice
