@@ -23,6 +23,7 @@ Toutes les spécialités de la médecine dentaire sont représentées dans notre
  * Soins au laser
  * Orthèse Narval contre le ronflement
  * Traitement de problèmes ATM et neuromusculaires
+ * Soins sous anesthésie générale
 
 Les prestations offertes par notre cabinet dentaire s’articulent autour d’un concept de qualité visant à travailler principalement avec les meilleures matériaux et laboratoires suisses.
 
