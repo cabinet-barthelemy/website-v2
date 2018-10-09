@@ -24,5 +24,6 @@ All dental medicine specialities are covered in order to offer our patients the 
  * Laser treatment
  * Orthosis against snoring
  * Temporomandibular joint disorders treatment
+ * Dental treatment under general anesthesia
 
 The expert service offered by our dental office is based on the concept of quality. We mainly work with the best suppliers and swiss laboratories.
