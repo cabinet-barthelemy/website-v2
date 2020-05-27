@@ -32,11 +32,6 @@
     en: |
       General dentist
       Graduated at the faculty of Dentistry, Geneva 2016
-- name: Catherine Grasset
-  key: catherine
-  description:
-    fr: Hygiéniste dentaire
-    en: Dental Hygienist
 - name: Jennifer Le
   key: jennifer
   description:
