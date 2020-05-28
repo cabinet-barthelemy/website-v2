@@ -12,8 +12,6 @@ fr:
     view_gmap: Voir dans Google map
     call_now: Appeler
     find_us: Nous trouver
-    after: Après
-    before: Avant
   pages:
     home:
       image_title: Chateau de Nyon
@@ -43,8 +41,6 @@ en:
     view_gmap: View in Google Map
     call_now: Call now
     find_us: Find us
-    after: After
-    before: Before
   pages:
     home:
       image_title: Nyon Castle
