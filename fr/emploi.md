@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: md
 title: Emploi
 lang: fr
 key: job
