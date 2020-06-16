@@ -17,7 +17,6 @@ settings:
     - treatments
     - pictures
     - costs
-    - job
     - contact
   languages:
     - fr

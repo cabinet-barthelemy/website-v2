@@ -7,12 +7,6 @@ key: job
 
 # Emploi
 
-## Médecin-Dentiste Omnipraticien(ne)
+Nous n'avons pas de poste ouvert pour le moment
 
-Taux d’activité: 40 à 60%
-
-Entrée en fonction: Octobre 2020 ou à convenir
-
-Merci d’envoyer votre dossier complet par courriel à [mail@dentistebarthelemy.ch](mailto:mail@dentistebarthelemy.ch)
-
-*Ajouté le 28 mai 2020*
+*Dernière mise à jour le 16 juin 2020*
