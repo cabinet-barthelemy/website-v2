@@ -20,6 +20,7 @@
       Private practice for a clinic in Morges from 2009 to 2013
       Pediatric dentist for Yout Dental clinic of Geneva
       Care under anesthesia general for children hospital of HUG
+
 - name: Shirly Bendrihem
   key: shirly
   description:
@@ -32,21 +33,25 @@
     en: |
       General dentist
       Graduated at the faculty of Dentistry, Geneva 2016
+
 - name: Jennifer Le
   key: jennifer
   description:
     fr: Hygiéniste dentaire
     en: Dental Hygienist
+
 - name: Jessica Le
   key: jessica
   description:
     fr: Hygiéniste dentaire
     en: Dental Hygienist
+
 - name: Carla Celerin
   key: carla
   description:
     fr: Assistante dentaire
     en: Dental assistant
+
 - name: Anna Rufenacht
   key: anna
   description:
@@ -54,18 +59,27 @@
       Assistante dentaire
       Etudiante stagiaire hygiéniste dentaire en dernière année
     en: Dental assistant
+
 - name: Yvonne Ricci
   key: yvonne
   description:
     fr: Assistante dentaire
     en: Dental assistant
+
 - name: Manon Fleury
   key: manon
   description:
     fr: Assistante dentaire
     en: Dental assistant
+
 - name: Pauline Fleury
   key: pauline
+  description:
+    fr: Apprentie
+    en: Apprentice
+
+- name: Alisa Yartseva
+  key: alisa
   description:
     fr: Apprentie
     en: Apprentice
