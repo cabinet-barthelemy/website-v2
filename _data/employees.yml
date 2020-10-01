@@ -34,6 +34,18 @@
       General dentist
       Graduated at the faculty of Dentistry, Geneva 2016
 
+- name: Valérie Maye
+  key: valerie
+  description:
+    fr: |
+      Médecin-dentiste
+      Omnipraticienne diplômée en 1999 à l'université de Genève
+      Parle Français - Anglais - Allemand - Italien
+    en: |
+      General dentist
+      Graduated at the faculty of Dentistry, Geneva 1999
+      Languages : French - English - German and Italian
+
 - name: Jennifer Le
   key: jennifer
   description:
