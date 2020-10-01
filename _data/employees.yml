@@ -52,14 +52,6 @@
     fr: Assistante dentaire
     en: Dental assistant
 
-- name: Anna Rufenacht
-  key: anna
-  description:
-    fr: |
-      Assistante dentaire
-      Etudiante stagiaire hygiéniste dentaire en dernière année
-    en: Dental assistant
-
 - name: Yvonne Ricci
   key: yvonne
   description:
