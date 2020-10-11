@@ -32,10 +32,10 @@ settings:
   phone: +41 22 363 11 00
   fax: +41 22 363 11 02
   opening:
-    monday: 8h - 18h
-    tuesday: 8h - 18h
-    wednesday: 8h - 18h
-    thursday: 8h - 18h
+    monday: 8h - 19h
+    tuesday: 7h30 - 17h
+    wednesday: 7h30 - 17h
+    thursday: 7h30 - 17h
     friday: 8h - 17h
     saturday: 8h - 13h
   social:
