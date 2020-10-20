@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+.text-container {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: $screen-md-min) {
     .container {
         padding-left: $spacing-unit-small;
