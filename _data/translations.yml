@@ -27,6 +27,8 @@ fr:
       title: Les tarifs de soins
     contact:
       title: Nous trouver
+  contact:
+    emergency: Pour les urgences en dehors des jours ouvrables, merci d'appeler la centrale des médecins au 0848 133 133
 en:
   vocab:
     headline: Dentiste in Nyon
@@ -56,3 +58,5 @@ en:
       title: Treatment costs
     contact:
       title: Find us
+  contact:
+    emergency: For emergencies outside of working days, please call the medical center at 0848 133 133
