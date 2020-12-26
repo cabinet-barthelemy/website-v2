@@ -18,6 +18,7 @@ settings:
     - pictures
     - costs
     - contact
+    - appointment
   languages:
     - fr
     - en
