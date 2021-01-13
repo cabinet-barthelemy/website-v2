@@ -7,6 +7,12 @@ key: job
 
 # Emploi
 
-Nous n'avons pas de poste ouvert pour le moment
+## Une assistante dentaire diplômée
 
-*Dernière mise à jour le 16 juin 2020*
+Taux d’activité: environ 70%
+
+Entrée en fonction: à discuter
+
+Merci d’envoyer votre dossier complet par courriel à [mail@dentistebarthelemy.ch](mailto:mail@dentistebarthelemy.ch)
+
+*Dernière mise à jour le 13 janvier 2021*
