@@ -12,9 +12,11 @@
         {% assign active = "" %}
       {% endif %}
 
-      <li class="{{ active }}">
-        <a href="{{ p.url }}" class="pdg--">{{ p.title }}</a>
-      </li>
+      {% if p.title %}
+        <li class="{{ active }}">
+          <a href="{{ p.url }}" class="pdg--">{{ p.title }}</a>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </nav>
