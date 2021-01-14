@@ -13,6 +13,8 @@ Taux d'activité: 30% pour le jeudi et samedi
 
 Entrée en fonction à convenir
 
+Merci d’envoyer votre dossier complet par courriel à [mail@dentistebarthelemy.ch](mailto:mail@dentistebarthelemy.ch)
+
 ## Un·e assistant·e dentaire diplômé·e
 
 Taux d’activité: environ 70%
