@@ -14,6 +14,8 @@ fr:
     find_us: Nous trouver
     schedule_online: ou prenez
   pages:
+    appointment:
+      title: Rendez-vous en ligne
     home:
       image_title: Chateau de Nyon
     team:
@@ -46,6 +48,8 @@ en:
     find_us: Find us
     schedule_online: or schedule an
   pages:
+    appointment:
+      title: Online appointment
     home:
       image_title: Nyon Castle
     team:

@@ -11,6 +11,7 @@ exclude: [vendor, node_modules, Gemfile, Gemfile.lock, package.json, README.md]
 
 # Site settings
 settings:
+  appointment_url: https://rdv.dentagest.ch/fr/#/gid/2950529C8B2A3B49BA560E071C62E157/cid/1A148EBC4A283C4ABA0585714744F9D6/step/1
   navigation:
     - home
     - team
@@ -19,7 +20,6 @@ settings:
     - costs
     - job
     - contact
-    - appointment
   languages:
     - fr
     - en
