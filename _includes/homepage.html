@@ -14,7 +14,7 @@
 
   {% assign pages = site.pages | where: "lang", page.lang | where: "key", "appointment" %}
   {% assign appointment_page = pages.first %}
-  <p>{{ t.vocab.schedule_online }} <a href="{{ appointment_page.url }}">{{ appointment_page.title | downcase }}</a></p>
+  <p>{{ t.vocab.schedule_online }} <a href="{{ site.settings.appointment_url }}" target="_blank">{{ t.pages.appointment.title | downcase }}</a></p>
 </div>
 
 <img src="{{ site.baseurl }}/assets/images/nyon-chateau2.png" alt="Chateau de Nyon" class="img-responsive">
