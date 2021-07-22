@@ -52,12 +52,6 @@
     fr: Hygiéniste dentaire
     en: Dental Hygienist
 
-- name: Jessica Le
-  key: jessica
-  description:
-    fr: Hygiéniste dentaire
-    en: Dental Hygienist
-
 - name: Brigitte Neukomm
   key: brigitte
   description:
@@ -75,18 +69,6 @@
   description:
     fr: Assistante dentaire
     en: Dental assistant
-
-- name: Manon Fleury
-  key: manon
-  description:
-    fr: Assistante dentaire
-    en: Dental assistant
-
-- name: Pauline Fleury
-  key: pauline
-  description:
-    fr: Apprentie
-    en: Apprentice
 
 - name: Alisa Yartseva
   key: alisa
